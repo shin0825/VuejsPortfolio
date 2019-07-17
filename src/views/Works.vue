@@ -34,6 +34,25 @@
       </div>
       <div class="col-lg-6 col-sm-12 border-left border-right">
         <div class="p-3 bg-white">
+          <p class="card-context mt-1">
+            <span class="text-primary">2019.07</span>
+            <br>
+            <span class="badge badge-primary">HTML</span>
+            <span class="badge badge-primary">CSS</span>
+            <span class="badge badge-primary">Bootstrap4</span>
+            <span class="badge badge-primary">AwesomeFont</span>
+            <span class="badge badge-primary">Vue.js</span>
+            <span class="badge badge-primary">VueRouter</span>
+            <span class="badge badge-primary">Vue CLI</span>
+            <br>
+          </p>
+          <figure>
+            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../static/vuejs-portfolio.png" alt="">
+            <figcaption>
+              <h3>ポートフォリオV2</h3>
+              <p>Vue.jsのHelloWorldを元に作成した<br>私のポートフォリオVer.2です。</p>
+            </figcaption>
+          </figure>
           <p class="card-context">
             <span class="text-primary">2019.06</span>
             <br>
@@ -46,35 +65,29 @@
             <br>
           </p>
           <figure>
-            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../assets/kakeibo.png" alt="">
+            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../static/kakeibo.png" alt="">
             <figcaption>
               <h3>Web家計簿</h3>
-              <p>簡単な家計簿です。お財布ごとに出費・収入ログを集計しているので、財布の状況をみることもできます。</p>
+              <p>簡単な家計簿です。<br>お財布ごとに出費・収入を集計しているので、<br>財布の状況をみることもできます。</p>
             </figcaption>
           </figure>
           <p class="card-context mt-1">
-            <span class="text-primary">2019.04 - 2019.05</span>
-              - <span>Railsチュートリアル</span>
-            <br>
-            <a href="https://railstutorial.jp/"><span class="badge badge-primary">RailsTutorial(学習サイト) <i class="fas fa-external-link-alt"></i></span></a>
-            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../assets/railstutorial.png" alt="">
-            <br>
-            Rails Tutorial完走により完成したMicropost投稿アプリです。
-          </p>
-
-          <p class="card-context mt-1">
             <span class="text-primary">2019.01</span>
-              - <span>ポートフォリオ</span>
             <br>
             <span class="badge badge-primary">HTML</span>
             <span class="badge badge-primary">CSS</span>
             <span class="badge badge-primary">Bootstrap4</span>
             <span class="badge badge-primary">AwesomeFont</span>
             <a href="https://startbootstrap.com/template-overviews/resume/"><span class="badge badge-primary">Resume(テンプレート) <i class="fas fa-external-link-alt"></i></span></a>
-            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../assets/template-portfolio.png" alt="">
             <br>
-            テンプレートを元に作成した、私のポートフォリオV1です
           </p>
+          <figure>
+            <img class="img-fluid img-thumbnail mx-auto mt-2 mb-2" src="../static/template-portfolio.png" alt="">
+            <figcaption>
+              <h3>ポートフォリオ(Template)</h3>
+              <p>テンプレートを元に作成した<br>私のポートフォリオVer.1です。</p>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -83,13 +96,13 @@
 
 <style>
 figure {
+  border-radius: 5px;
   position: relative;
   overflow: hidden;
   width: 400px;
 }
 figcaption {
-  text-align: right;
-  vertical-align: bottom;
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -102,7 +115,7 @@ figcaption {
 }
 figcaption h3,
 figcaption p {
-  color: blue;
+  color: #42b983;
   position: absolute;
   left: -100%;
   width: 360px;
