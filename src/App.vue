@@ -3,7 +3,8 @@
     <div id="nav-top" class="nav mb-5">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/skills">Skills</router-link>
+      <router-link to="/skills">Skills</router-link> |
+      <router-link to="/works">Works</router-link>
       <p class="lead mt-1 mb-1">
         中村 進也 - ポートフォリオ
       </p>
@@ -17,7 +18,8 @@
     <div id="nav-bottom" class="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/skills">Skills</router-link>
+      <router-link to="/skills">Skills</router-link> |
+      <router-link to="/works">Works</router-link>
     </div>
   </div>
 </template>

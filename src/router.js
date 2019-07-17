@@ -24,6 +24,10 @@ export default new Router({
       path: '/skills',
       name: 'skills',
       component: () => import('./views/Skills.vue')
+    }, {
+      path: '/works',
+      name: 'works',
+      component: () => import('./views/Works.vue')
     },
   ]
 })
