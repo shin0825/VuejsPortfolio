@@ -12,6 +12,9 @@ library.add(fab)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+import NowDate from "./components/NowDate.vue";
+Vue.component('nowDate', NowDate)
+
 Vue.config.productionTip = false
 
 new Vue({

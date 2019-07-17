@@ -11,7 +11,7 @@
       <div class="col-lg-6 col-sm-12 border-left border-right">
         <div class="p-3 bg-white">
           <p class="card-context">
-            <span class="text-primary">2007.04 - 現在</span>
+            <span class="text-primary">2007.04 - <nowDate /></span>
             - <span>設計・製造</span>
             <br>
             <br>
@@ -77,3 +77,24 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: ['nowDate'],
+  computed: {
+    showDate: function () {
+      return this.nowDate.toLocaleString()
+    }
+  },
+  methods: {
+    refresh: function () {
+      this.nowDate = new Date()
+      const self = this
+      setTimeout(() => { self.refresh() }, 1000)
+    }
+  },
+  created: function () {
+    this.refresh()
+  }
+}
+</script>

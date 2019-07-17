@@ -71,7 +71,7 @@
               <span class="badge badge-primary">Oracle</span>
             </p>
             <p class="card-context">
-              <span class="text-primary">2019.06.18 - 学習中</span>
+              <span class="text-primary">2019.06.18 - <nowDate /></span>
                - <span>Vue + Vue Router + Vuex + Laravelで写真共有アプリを作ろう</span>
               <br>
               <span class="badge badge-primary">PHP</span>

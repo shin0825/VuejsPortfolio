@@ -14,7 +14,7 @@
         <div class="col-lg-6 col-sm-12 border-left border-right">
           <div class="p-3 bg-white">
             <p class="card-context">
-              <span class="text-primary">2007.04 - 2019.07</span>
+              <span class="text-primary">2007.04 - <nowDate /></span>
                 - <span>就職</span>
               <br>
               ・愛知県のユーザー系SIer入社
