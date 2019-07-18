@@ -25,9 +25,9 @@ export default new Router({
       name: 'skills',
       component: () => import('./views/Skills.vue')
     }, {
-      path: '/works',
-      name: 'works',
-      component: () => import('./views/Works.vue')
+      path: '/kakeibo',
+      name: 'kakeibo',
+      component: () => import('./views/Kakeibo.vue')
     },
   ]
 })

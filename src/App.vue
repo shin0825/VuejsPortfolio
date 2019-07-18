@@ -4,10 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
-      <router-link to="/works">Works</router-link>
-      <p class="lead mt-1 mb-1">
-        中村 進也 - ポートフォリオ
-      </p>
+      <router-link to="/kakeibo">Kakeibo</router-link>
     </div>
     <div id="main" >
       <transition name="router-transition">
@@ -19,7 +16,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
-      <router-link to="/works">Works</router-link>
+      <router-link to="/kakeibo">Kakeibo</router-link>
     </div>
   </div>
 </template>

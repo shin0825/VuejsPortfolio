@@ -15,6 +15,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 import NowDate from "./components/NowDate.vue";
 Vue.component('nowDate', NowDate)
 
+import ImageView from "./components/ImageView.vue";
+Vue.component('imageView', ImageView)
+
 Vue.config.productionTip = false
 
 new Vue({
