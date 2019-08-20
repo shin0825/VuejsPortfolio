@@ -50,6 +50,48 @@
           </div>
         </div>
       </div>
+
+      <div class="row mt-4 mb-2">
+        <div class="col-lg-6 col-sm-12">
+          <div class="p-3 bg-white">
+            <h3 class="no-margin-bottom">
+              <font-awesome-icon icon="book" />
+              読書中
+              <font-awesome-icon icon="book" />
+            </h3>
+            <p>
+              少しずつ読み進めます
+              <br>
+              良書があれば教えてください
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 border-left border-right">
+          <div class="p-3 bg-white">
+            <p class="card-context">
+              Webを支える技術
+            </p>
+            <p class="card-context mb-3">
+              Ruby on Rails 5 速習実践ガイド
+            </p>
+            <p class="card-context mb-3">
+              Everyday Rails - RSpecによるRailsテスト入門
+            </p>
+            <p class="card-context mb-3">
+              RubyとRailsの学習ガイド 2019 技術書典6 拡大版
+            </p>
+            <p class="card-context mb-3">
+              マンガでわかるRuby
+            </p>
+            <p class="card-context mb-3">
+              プロを目指す人のためのRuby入門
+            </p>
+            <p class="card-context mb-3">
+              オブジェクト指向設計実践ガイド(Practical Object-Oriented Design in Ruby)
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

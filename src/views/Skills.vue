@@ -48,9 +48,11 @@
               <span class="text-primary">実務メイン</span>
               <br>
               <span class="badge badge-primary">C#.NET</span>
+                <span> - Formsによりクラサバアプリを作ることが多い, たまにバッチ系のConsole, Serviceを作ることもある</span>
               <br>
               <span class="badge badge-primary">SQLServer</span>
               <span class="badge badge-info">T-SQL</span>
+                <span> - T-SQLによるデータ操作や速度を意識した取得処理を書ける, Management StudioによるDB操作や実行計画の確認など</span>
               <br>
               <span class="badge badge-primary">svn</span>
               <br>
@@ -95,11 +97,20 @@
               <span class="badge badge-primary">Vagrant</span>
               <span class="badge badge-primary">Docker</span>
               <br>
+              <span class="badge badge-primary">Ruby</span>
+                <span> - チェリー本, exercism.ioにて学習中</span>
+              <br>
+              <span class="badge badge-info">Ruby on Rails</span>
+              <span class="badge badge-info">Slim</span>
+              <span class="badge badge-info">RSpec</span>
+                <span> - 簡単なWebアプリケーションを作ることができる(<nowDate />現在で 2本自作)</span>
+              <br>
               <span class="badge badge-primary">HTML5</span>
-              <span class="badge badge-primary">CSS</span>
+              <span class="badge badge-primary">CSS3</span>
               <br>
               <span class="badge badge-primary">git</span>
               <span class="badge badge-info">github</span>
+                <span> - 概要を理解していて一般的なコマンドを扱うことができる, githubとローカルリポジトリでやりとりをしている</span>
               <br>
               <span class="badge badge-primary">Monaca</span>
               <span class="badge badge-info">Cordova</span>
@@ -108,6 +119,7 @@
               <br>
               <span class="badge badge-primary">Photoshop</span>
               <span class="badge badge-primary">Illustrator</span>
+                <span> - かつて同人活動をしていてCDジャケットイラストを自作していたので少し操作ができる</span>
             </p>
           </div>
         </div>
