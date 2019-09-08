@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
-      <router-link to="/kakeibo">Kakeibo</router-link>
+      <router-link to="/kakeibo">Kakeibo</router-link> |
+      <a href="https://otogemap.herokuapp.com" target="_blank">IIDX DB</a>
     </div>
     <div id="main" >
       <transition name="router-transition">
@@ -16,7 +17,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
-      <router-link to="/kakeibo">Kakeibo</router-link>
+      <router-link to="/kakeibo">Kakeibo</router-link> |
+      <a href="https://otogemap.herokuapp.com">IIDX DB</a>
     </div>
   </div>
 </template>
@@ -62,7 +64,7 @@ padding: 30px;
     width: 100%;
     position: fixed;
     left: 0px;
-    bottom: 2px;
+    bottom: 0px;
     z-index: 9999;
     text-align: center;
     padding: 1rem;
