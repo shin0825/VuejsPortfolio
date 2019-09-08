@@ -29,5 +29,12 @@ export default new Router({
       name: 'kakeibo',
       component: () => import('./views/Kakeibo.vue')
     },
-  ]
+  ],
+  scrollBehavior() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ x: 0, y: 0 })
+      }, 500)
+    })
+  }
 })
