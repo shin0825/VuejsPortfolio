@@ -5,7 +5,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
       <router-link to="/kakeibo">Kakeibo</router-link> |
-      <a href="https://otogemap.herokuapp.com" target="_blank">IIDX DB</a>
+      <a href="https://otogemap.herokuapp.com" target="_blank" rel="noopener">IIDX DB</a> |
+      <a href="https://nameless-tundra-72223.herokuapp.com/" target="_blank" rel="noopener">My RSS</a>
     </div>
     <div id="main" >
       <transition name="router-transition">
@@ -18,7 +19,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/skills">Skills</router-link> |
       <router-link to="/kakeibo">Kakeibo</router-link> |
-      <a href="https://otogemap.herokuapp.com">IIDX DB</a>
+      <a href="https://otogemap.herokuapp.com">IIDX DB</a> |
+      <a href="https://nameless-tundra-72223.herokuapp.com/">My RSS</a>
     </div>
   </div>
 </template>
